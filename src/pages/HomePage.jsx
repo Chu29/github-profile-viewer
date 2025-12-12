@@ -2,12 +2,12 @@ import SearchBar from "../components/SearchBar";
 
 export const AppBar = () => {
   return (
-    <>
+    <div className="text-center text-white mt-10">
       <h1 className="text-3xl">GitHub Profile Viewer</h1>
       <p className="text-gray-400 text-[15px]">
         Search for any GitHub user to view their profile and repositories
       </p>
-    </>
+    </div>
   );
 };
 
