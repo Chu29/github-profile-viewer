@@ -14,7 +14,7 @@ const SearchBar = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className=" bg-[#1d2937] border border-gray-500 mx-auto mt-8 relative  min-w-sm max-w-2xl flex flex-col md:flex-row items-center justify-center py-2 px-2 rounded-xl gap-2 shadow-2xl focus-within:border-gray-300"
+      className=" bg-[#1d2937] border border-gray-500 mx-auto mt-8 relative  max-w-2xl flex flex-col md:flex-row items-center justify-center py-2 px-2 rounded-xl gap-2 shadow-2xl focus-within:border-gray-300 w-full"
     >
       <input
         className="px-6 py-2 w-full rounded-md flex-1 outline-none text-gray-500"
